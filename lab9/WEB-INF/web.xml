@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<web-app>
+
+	
+	<servlet>
+		<servlet-name>insertstudentservlet</servlet-name>
+		<servlet-class>insertstudentservlet</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>insertstudentservlet</servlet-name>
+		<url-pattern>/insertstudentservlet</url-pattern>
+	</servlet-mapping>
+
+	
+	<servlet>
+		<servlet-name>searchstudentservlet</servlet-name>
+		<servlet-class>searchstudentservlet</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>searchstudentservlet</servlet-name>
+		<url-pattern>/searchstudentservlet</url-pattern>
+	</servlet-mapping>
+
+
+
+</web-app>
